@@ -127,3 +127,32 @@ Once done it will ask for MFA codes ; when logging in ;
 it is basically done for the root user ; 
 and upto 8 accounts can be added via the MFA 
 ~~~
+
+~~~
+How can users access AWS ?
+~~~
+
+~~~
+To access AWS, you have three options:
+• AWS Management Console (protected by password + MFA)
+• AWS Command Line Interface (CLI): protected by access keys
+• AWS Software Developer Kit (SDK) - for code: protected by access keys
+• Access Keys are generated through the AWS Console
+• Users manage their own access keys
+• Access Keys are secret, just like a password. Don’t share them
+• Access Key ID ~= username
+• Secret Access Key ~= password
+
+~~~
+~~~
+What’s the AWS CLI?
+~~~
+~~~
+A tool that enables you to interact with AWS services using commands in
+your command-line shell
+• Direct access to the public APIs of AWS services
+• You can develop scripts to manage your resources
+• It’s open-source [Link Text](https://github.com/aws/aws-cli)
+• Alternative to using AWS Management Console
+
+~~~
