@@ -43,6 +43,7 @@ IAM Setup
 ~~~
 ~~~
 IAM Policies Structure
+inline policy - means policy for a single specific person 
 ~~~
 ~~~
 
@@ -55,4 +56,15 @@ IAM Policies Structure
 (Allow, Deny)
 • Principal: account/user/role to which this policy applied to • Action: list of actions this policy allows or denies • Resource: list of resources to which the actions applied to • Condition: conditions for when this policy is in effect
 (optional)
+~~~
+
+~~~
+POlicy Hands ON 
+
+with read only access - we have reading capability only not anything else via the IAM user candidate ; 
+
+1. if a person A belongs to 2 groups then the policies that have been assigned to that user Groups ; 
+will be inherited by the person A 
+2. You can make custom policies , and assign it to a Group or directly to that of a user via inline policy ; 
+
 ~~~
