@@ -156,3 +156,18 @@ your command-line shell
 • Alternative to using AWS Management Console
 
 ~~~
+
+~~~
+AWS ClI Hands ON 
+
+same as the management console which is present in the aws console ; 
+
+~~~
+
+~~~
+AWS Cloud Shell
+
+Terminal in the cloud ; 
+it is supported in many regions but not all the regions ; 
+~~~
+
