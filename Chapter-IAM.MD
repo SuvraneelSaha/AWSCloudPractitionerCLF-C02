@@ -171,3 +171,18 @@ Terminal in the cloud ;
 it is supported in many regions but not all the regions ; 
 ~~~
 
+~~~
+IAM Roles for Services  
+
+Some AWS service will need to
+perform actions on your behalf
+• To do so, we will assign
+permissions to AWS services
+with IAM Roles
+• Common roles: • EC2 Instance Roles • Lambda Function Roles • Roles for CloudFormation 
+
+Example - EC2 instance which is a virtual server and it needs a set of permissions to start working ; 
+and the permissions or set of permissions that is in this case is roles is assigned by the user itself ; 
+
+~~~
+
