@@ -223,3 +223,53 @@ It will give all the details of the changed or modified entities like the passwo
 
 IAM Last Access report - gives information on the AWS Services that are used previously with which Permissions involved ; 
 ~~~
+
+~~~
+IAM Guidelines & Best Practices 
+~~~
+
+~~~
+• Don’t use the root account except for AWS account setup
+• One physical user = One AWS user
+ie one user apart from that of the root 
+your friend 1 user , YOU 1 user two different users . 
+• Assign users to groups and assign permissions to groups
+• Create a strong password policy
+• Use and enforce the use of Multi Factor Authentication (MFA)
+• Create and use Roles for giving permissions to AWS services
+• Use Access Keys for Programmatic Access (CLI / SDK)
+• Audit permissions of your account using IAM Credentials Report & IAM
+Access Advisor
+• Never share IAM users & Access Keys
+~~~
+
+~~~
+Shared Responsibility Model for IAM
+~~~
+
+~~~
+AWS : 
+Infrastructure (global
+network security)
+• Configuration and
+vulnerability analysis
+• Compliance validation
+~~~
+
+~~~
+User
+• Users, Groups, Roles, Policies
+management and monitoring
+• Enable MFA on all accounts
+• Rotate all your keys often ie the Access Keys over a time period 
+• Use IAM tools to apply
+appropriate permissions
+• Analyze access patterns &
+review permissions  
+~~~
+
+~~~
+In simple words ; 
+AWS is responsible for all things Infrastructure 
+and User is responsible is Using the Infrastructure responsibly 
+~~~
