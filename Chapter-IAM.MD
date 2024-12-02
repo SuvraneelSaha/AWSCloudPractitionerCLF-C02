@@ -120,4 +120,10 @@ AWS GovCloud (US)
 Provided by SurePassID (3rd party)
 ~~~
 
-
+~~~
+MFA hands on - 
+Password changing , and also using Multi factor authentication via Authenticator or physical security keys . 
+Once done it will ask for MFA codes ; when logging in ; 
+it is basically done for the root user ; 
+and upto 8 accounts can be added via the MFA 
+~~~
