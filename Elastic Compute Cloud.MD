@@ -69,3 +69,57 @@ EC2 User Data
 • Anything you can think of
 • The EC2 User Data Script runs with the root user
 ~~~~
+
+~~~
+Creating an EC2 instance with EC2 user data to host a website / web server 
+~~~
+~~~
+Step1 - 
+create the EC2 instance 
+2 
+name it 
+3 
+what type of hardware is needed (choose specifically free ones)
+4
+ram and data storage 
+5 
+Network type 
+6
+7 Create a key pair for the SSH encryption so that the user can log into the cloud via the shell using the SSH keys 
+User Data ; 
+this is the portion where we can give the cloud a script which will get executed only once in the 
+lifecycle of the EC2 instance ; 
+8
+Check the summary and launch the EC2 instance ;
+
+~~~
+
+~~~
+After Launching 
+there will be 
+public IP address 
+and 
+private IP address 
+
+public IP address will change once we stop the EC2 instance and again load it ; 
+
+~~~
+
+~~~
+When launching we need to check that the http protocol given is as 
+http not https otherwise it will go to an infinite load Screen time ; 
+
+~~~
+
+~~~
+EC2 instance State - 
+1 Terminate 
+2 Stop 
+if you stop an instance and start it later on ; 
+the public ip address will change 
+so for which we need to use the new public ip address to access to that of the web server ; 
+
+But the private Ip address wont be changed even if the EC2 instance was stopped ; 
+
+Terminate means ending the EC2 
+~~~
