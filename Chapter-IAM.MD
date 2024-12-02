@@ -186,3 +186,15 @@ and the permissions or set of permissions that is in this case is roles is assig
 
 ~~~
 
+~~~
+IAM Role Hands ON 
+~~~
+
+~~~
+IAM roles is given for the AWS Services ; 
+
+Step 1 - create a role for an AWS Service ; 
+Step 2 - Add the permissions / policies for that specific role 
+Step 3 - Use the Aws Service with the role that is given 
+
+~~~
