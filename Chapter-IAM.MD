@@ -198,3 +198,28 @@ Step 2 - Add the permissions / policies for that specific role
 Step 3 - Use the Aws Service with the role that is given 
 
 ~~~
+
+~~~
+IAM Security Tools
+~~~
+
+~~~
+• IAM Credentials Report (account-level)
+• a report that lists all your account's users and the status of their various
+credentials
+• IAM Access Advisor (user-level)
+• Access advisor shows the service permissions granted to a user and when those
+services were last accessed.
+• You can use this information to revise your policies.
+~~~
+
+~~~
+IAM Security Tools Hands ON 
+~~~
+
+~~~
+Credentials report for IAM root user; 
+It will give all the details of the changed or modified entities like the password change, last used , MFA present or not in a CSV file ; 
+
+IAM Last Access report - gives information on the AWS Services that are used previously with which Permissions involved ; 
+~~~
