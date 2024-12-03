@@ -302,3 +302,18 @@ SSH Summary Table
 ~~~
 For mac and linux users use ssh ; 
 ~~~
+
+~~~
+How to SSH into an EC2 instance from the linux terminal 
+
+~~~
+
+~~~
+ssh -i (Name of the Pem file in which Access KEys are present).pem ec2-user@(public ip address)
+
+the ip address will change when the instance is stopped or restarted ; 
+
+we can close the connection via pressing cntrl + G ; 
+
+or we can use exit ; 
+~~~
