@@ -295,3 +295,10 @@ So change the EC2 Security Groups accordingly to that of the EC2s ;
 and also we have the ability to make a Single security group and add it to different EC2 instances ; 
 
 ~~~
+
+~~~
+SSH Summary Table
+~~~
+~~~
+For mac and linux users use ssh ; 
+~~~
