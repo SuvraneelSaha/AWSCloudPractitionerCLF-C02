@@ -378,3 +378,11 @@ Don't panic. Use EC2 Instance Connect from the next lecture. Make sure you start
 
 This is probably because you have stopped your EC2 instance and then started it again today. When you do so, the public IP of your EC2 instance will change. Therefore, in your command, or Putty configuration, please make sure to edit and save the new public IP.
 ~~~~
+
+~~~
+EC2 instance connect ; 
+Connection via the EC2 instance connect without the use of ssh and access keys ; 
+we can use it directly to connect to the EC2 instance ; 
+port 22 is the default port for sshing into a remote virtual machine or an EC2 instance 
+
+~~~
