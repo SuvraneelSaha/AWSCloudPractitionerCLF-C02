@@ -268,4 +268,30 @@ Classic Ports to know
 • 3389 = RDP (Remote Desktop Protocol) – log into a Windows instance
 ~~~
 
+~~~
+Security Groups Hands ON 
+~~~
 
+~~~
+So here is a very important tip for you.
+Any time you see a timeout,
+okay, this is a timeout
+because it keeps on trying to connect
+but it doesn't succeed
+and then it will eventually fail, called a timeout.
+So if you see a timeout when trying to establish any kind
+of connection into your EC2 instances,
+for example, if you try to SSH into it,
+but there's a timeout,
+or if you try to do an HTTP query,
+but there's a timeout,
+or if you try to do anything with it
+and there is a timeout,
+this is 100% the cause
+of an EC2 security group.
+~~~
+~~~
+So change the EC2 Security Groups accordingly to that of the EC2s ; 
+and also we have the ability to make a Single security group and add it to different EC2 instances ; 
+
+~~~
